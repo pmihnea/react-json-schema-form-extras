@@ -81,7 +81,10 @@
       },
       "collapse": {
         "field": "rte",
-        "collapsed": false
+        "collapsed": false,
+        "collapseDivStyles": {
+          "background": "linear-gradient(to right, MidnightBlue , white)"
+        }
       },
       "ui:autofocus": true
     },
@@ -169,7 +172,7 @@
         "collapsed": false,
         "collapseDivStyles": {
           "textColor": "white",
-          "padding": "14px", 
+          "padding": "14px",
           "margin": "",
           "marginLeft": "-10px",
           "marginBottom": "5px",

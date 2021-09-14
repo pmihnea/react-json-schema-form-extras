@@ -5,8 +5,8 @@ const fieldProps = {
     options: [{ name: "some" }, { name: "other" }],
     allowNew: true,
     labelKey: "name",
-    minLength: 1,
-  },
+    minLength: 1
+  }
 };
 
 export default {
@@ -19,6 +19,7 @@ export default {
       "ui:field": "compositeArray",
       inputField: "typeahead",
       arrayField: "table",
-    }),
-  },
+      table: {}
+    })
+  }
 };
